@@ -8,7 +8,7 @@ import Likes from "./components/Likes";
 const Routing = () => {
   return (
     <Switch>
-      <Route excat path="/profile">
+      <Route path="/profile" exact>
         <Profile />
       </Route>
       <Route path="/profile/posts">
