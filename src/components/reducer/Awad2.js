@@ -15,7 +15,7 @@ function reducer(state, action) {
   }
 }
 
-function Awad_2() {
+function Awad2() {
   const [{ todos }, dispatch] = useReducer(reducer, { todos: [] });
   const [text, setText] = useState("");
   return (
@@ -49,4 +49,4 @@ function Awad_2() {
   );
 }
 
-export default Awad_2;
+export default Awad2;

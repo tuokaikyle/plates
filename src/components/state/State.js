@@ -11,6 +11,12 @@ function State() {
         <li>
           <Link to="/state/state2">第二课</Link>
         </li>
+        <li>
+          <Link to="/state/state3">第三课</Link>
+        </li>
+        <li>
+          <Link to="/state/state4">给下一章useEffect的预备代码</Link>
+        </li>
       </ul>
     </div>
   );

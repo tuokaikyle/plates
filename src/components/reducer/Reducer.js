@@ -6,10 +6,10 @@ function Reducer() {
     <div>
       <ul>
         <li>
-          <Link to="/reducer/awad_1">awad第一课</Link>
+          <Link to="/reducer/awad1">awad第一课</Link>
         </li>
         <li>
-          <Link to="/reducer/awad_2">awad第二课</Link>
+          <Link to="/reducer/awad2">awad第二课</Link>
         </li>
         <li>
           <Link to="/reducer/awad3">awad第三课</Link>

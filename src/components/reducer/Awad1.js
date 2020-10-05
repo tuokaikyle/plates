@@ -11,12 +11,12 @@ function reducer(state, action) {
   }
 }
 
-function Awad_1() {
+function Awad1() {
   const [state, dispatch] = useReducer(reducer, 0);
 
   return (
     <div>
-      Awad_1 page
+      Awad1 page
       <br />
       <button onClick={() => dispatch({ type: "减法" })}>减法</button>
       {state}
@@ -47,9 +47,8 @@ function Awad_1() {
 
         两个按钮，中间一个数字，点击按钮可以实现加减`}
       </pre>
-
     </div>
   );
 }
 
-export default Awad_1;
+export default Awad1;
