@@ -125,13 +125,7 @@ function App() {
         <br />
         <hr />
         <pre>{`
-  备忘：
-  1、state awad 后面有一个custom hook没有看
-  2、只看了kyle：effect
-  3、reducer 只看了awad
-  4、context kyle 没看
-  5、全部：memo, ref
-  6、Ins mern stack只做笔记
+
 `}</pre>
         <hr />
         <Routing />
