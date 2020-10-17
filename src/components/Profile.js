@@ -1,15 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 
 function Profile() {
   return (
     <div>
-      <h2>This is profile page</h2>
-      <Link to="/profile/posts">posts page</Link>
-      <br />
-      <Link to="/profile/likes">likes page</Link>
-      <br />
-      <hr />
+      <h2>Profile page</h2>
     </div>
   );
 }
